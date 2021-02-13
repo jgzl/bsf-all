@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.github.jgzl.bsf.apollo.ApolloConfiguration
+org.springframework.context.ApplicationContextInitializer=\
+com.github.jgzl.bsf.apollo.ApolloApplicationContextInitializer

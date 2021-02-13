@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.github.jgzl.bsf.bigdata.clickhouse.ClickHouseConfiguration,\
+com.github.jgzl.bsf.bigdata.tidb.TidbConfiguration

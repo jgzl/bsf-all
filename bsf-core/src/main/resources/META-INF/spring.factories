@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.github.jgzl.bsf.core.config.BsfConfiguration,\
+com.github.jgzl.bsf.core.config.WebConfiguration
+org.springframework.context.ApplicationContextInitializer=\
+com.github.jgzl.bsf.core.initializer.CoreApplicationContextInitializer

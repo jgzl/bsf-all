@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.github.jgzl.bsf.client.EurekaClientConfiguration
+org.springframework.context.ApplicationContextInitializer=\
+com.github.jgzl.bsf.client.EurekaApplicationContextInitializer
