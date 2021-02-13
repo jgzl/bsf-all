@@ -6,7 +6,7 @@ import lombok.val;
 import org.apache.logging.log4j.util.Strings;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-06-15 10:04
  **/
 public class PropertyUtils {

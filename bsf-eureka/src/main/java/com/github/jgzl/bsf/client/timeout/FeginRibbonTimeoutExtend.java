@@ -18,7 +18,7 @@ import javassist.CtNewMethod;
 import lombok.val;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2020-01-14 15:09
  **/
 public class FeginRibbonTimeoutExtend {

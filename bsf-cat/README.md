@@ -9,7 +9,7 @@ CAT是一个提供实时监控报警，应用性能分析诊断的工具。[更�
 ## 添加依赖
 ```java
 <dependency>
-	<artifactId>csx-bsf-cat</artifactId>
+	<artifactId>bsf-cat</artifactId>
 	<groupId>com.yh.csx.bsf</groupId>
 	<version>1.7.1-SNAPSHOT</version>
 </dependency>	

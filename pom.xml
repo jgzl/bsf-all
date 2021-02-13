@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.github.jgzl.bsf</groupId>
+        <groupId>com.github.jgzl</groupId>
         <artifactId>bsf-dependencies</artifactId>
-        <version>1.7.10-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
         <relativePath/>
     </parent>
 
@@ -35,14 +35,14 @@
         <module>bsf-transaction</module>
     </modules>
 
-
+    <name>${project.artifactId}</name>
     <description>bsf 让开发更便捷</description>
     <url>https://github.com/jgzl/bsf</url>
 
     <licenses>
         <license>
-            <name>Mulan Permissive Software License，Version 1</name>
-            <url>https://license.coscl.org.cn/MulanPSL</url>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
         </license>
     </licenses>
 
@@ -59,8 +59,12 @@
 
     <developers>
         <developer>
-            <name>Javen</name>
+            <name>lihaifeng</name>
             <email>li7hai26@gmail.com</email>
+            <roles>
+                <role>developer</role>
+            </roles>
+            <timezone>+8</timezone>
             <organization>github</organization>
             <organizationUrl>https://jgzl.github.io/</organizationUrl>
         </developer>
@@ -73,7 +77,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.github.jgzl.bsf</groupId>
+                <groupId>com.github.jgzl</groupId>
                 <artifactId>bsf-dependencies</artifactId>
                 <version>${project.parent.version}</version>
                 <type>pom</type>
@@ -82,7 +86,7 @@
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
-                <version>1.18.4</version>
+                <version>1.18.18</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -142,22 +146,51 @@
             </plugin>
         </plugins>
     </build>
-<!--	<repositories>-->
-<!--		<repository>-->
-<!--			<id>central</id>-->
-<!--			<url>https://repo.maven.apache.org/maven2</url>-->
-<!--			<snapshots>-->
-<!--				<enabled>false</enabled>-->
-<!--			</snapshots>-->
-<!--		</repository>-->
-<!--		<repository>-->
-<!--			<id>unidal</id>-->
-<!--			<name>Unidal Repository</name>-->
-<!--			<url>http://unidal.org/nexus/content/repositories/releases/</url>-->
-<!--			<snapshots>-->
-<!--				<enabled>false</enabled>-->
-<!--			</snapshots>-->
-<!--		</repository>-->
-<!--	</repositories>-->
+    <profiles>
+        <profile>
+            <id>release</id>
+            <build>
+                <plugins>
+                    <!-- GPG -->
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-gpg-plugin</artifactId>
+                        <version>1.6</version>
+                        <executions>
+                            <execution>
+                                <id>nexus-release</id>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>sign</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <!--自动发布 Jar 到 Maven 仓库-->
+                    <plugin>
+                        <groupId>org.sonatype.plugins</groupId>
+                        <artifactId>nexus-staging-maven-plugin</artifactId>
+                        <version>1.6.8</version>
+                        <extensions>true</extensions>
+                        <configuration>
+                            <serverId>nexus-release</serverId>
+                            <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                            <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+            <distributionManagement>
+                <snapshotRepository>
+                    <id>nexus-release</id>
+                    <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+                </snapshotRepository>
+                <repository>
+                    <id>nexus-release</id>
+                    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+                </repository>
+            </distributionManagement>
+        </profile>
+    </profiles>
 
 </project>

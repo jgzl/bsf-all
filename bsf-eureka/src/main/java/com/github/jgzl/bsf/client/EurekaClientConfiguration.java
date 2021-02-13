@@ -16,7 +16,7 @@ import org.springframework.context.annotation.Import;
 import org.springframework.context.annotation.Lazy;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-06-15 14:50
  **/
 @Configuration

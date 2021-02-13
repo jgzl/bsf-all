@@ -1,7 +1,7 @@
 package com.github.jgzl.bsf.core.util;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-07-24 11:00
  **/
 public class StringUtils {

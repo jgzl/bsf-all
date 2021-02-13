@@ -40,7 +40,7 @@ import com.github.jgzl.bsf.core.util.StringUtils;
 import lombok.val;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-08-31 10:18
  **/
 @Configuration

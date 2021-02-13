@@ -4,8 +4,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<parent>
 		<artifactId>bsf-all</artifactId>
-		<groupId>com.github.jgzl.bsf</groupId>
-		<version>1.7.10-SNAPSHOT</version>
+		<groupId>com.github.jgzl</groupId>
+		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 
@@ -21,7 +21,7 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.github.jgzl.bsf</groupId>
+			<groupId>com.github.jgzl</groupId>
 			<artifactId>bsf-starter</artifactId>
 			<version>${project.parent.version}</version>
 		</dependency>

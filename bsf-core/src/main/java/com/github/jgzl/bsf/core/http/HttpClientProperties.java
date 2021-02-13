@@ -9,7 +9,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import java.lang.reflect.Method;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-07-23 17:54
  **/
 @ConfigurationProperties

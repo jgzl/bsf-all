@@ -17,7 +17,7 @@ import java.util.concurrent.atomic.AtomicLong;
 
 /**
  * 自定义采集器
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-07-30 16:11
  **/
 public class Collector {

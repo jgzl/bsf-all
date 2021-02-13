@@ -6,7 +6,7 @@ import com.github.jgzl.bsf.health.config.HealthProperties;
 import com.github.jgzl.bsf.health.warn.WarnProvider;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-07-23 18:47
  **/
 public abstract class AbstractCollectTask implements AutoCloseable {

@@ -3,7 +3,7 @@ package com.github.jgzl.bsf.shardingjdbc.base;
 import java.lang.annotation.*;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-09-01 14:24
  * 配置:spring.shardingsphere.sharding.default-database-strategy.hint.algorithm-class-name = com.github.jgzl.bsf.shardingjdbc.DataSourceShardingAlgorithm
  **/

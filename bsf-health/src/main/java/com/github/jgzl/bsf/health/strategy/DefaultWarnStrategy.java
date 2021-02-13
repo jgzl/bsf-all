@@ -8,7 +8,7 @@ import java.util.*;
 
 /**
  * 默认报警策略
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-07-28 08:24
  **/
 public class DefaultWarnStrategy {

@@ -4,7 +4,7 @@ import com.github.jgzl.bsf.core.base.Callable;
 import org.apache.shardingsphere.api.hint.HintManager;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-09-01 14:16
  **/
 public class ShardingJdbcUtils {

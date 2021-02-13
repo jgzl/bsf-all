@@ -24,7 +24,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-07-23 20:20
  **/
 public class WarnProvider extends AbstractWarn implements AutoCloseable,org.springframework.boot.ApplicationRunner {

@@ -14,7 +14,7 @@ import com.github.jgzl.bsf.core.base.BsfException;
 import lombok.val;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-07-31 09:54
  **/
 public class ReflectionUtils {

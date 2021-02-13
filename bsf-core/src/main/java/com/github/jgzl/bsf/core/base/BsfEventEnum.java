@@ -3,7 +3,7 @@ package com.github.jgzl.bsf.core.base;
 import java.util.HashMap;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-08-10 16:00
  **/
 public enum BsfEventEnum {

@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-07-24 21:03
  **/
 @ConfigurationProperties

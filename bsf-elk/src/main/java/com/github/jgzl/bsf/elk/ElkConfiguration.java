@@ -26,7 +26,7 @@ import org.springframework.context.annotation.Import;
 
 /**
  * @version : 2019-05-27 14:30
- * @author: chejiangyi * 
+ * @author: lihaifeng * 
  * @date 2020-01-15
  **/
 @Configuration

@@ -8,7 +8,7 @@
 ## 依赖引用
 ```java 
 <dependency>
-	<artifactId>csx-bsf-shardingjdbc</artifactId>
+	<artifactId>bsf-shardingjdbc</artifactId>
 	<groupId>com.yh.csx.bsf</groupId>
 	<version>1.7.1-SNAPSHOT</version>
 </dependency>

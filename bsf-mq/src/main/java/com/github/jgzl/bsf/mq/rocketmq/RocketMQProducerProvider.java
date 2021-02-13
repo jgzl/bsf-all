@@ -14,7 +14,7 @@ import com.github.jgzl.bsf.mq.base.AbstractProducerProvider;
 import com.github.jgzl.bsf.mq.base.MQException;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-06-12 13:01
  * rocketmq生产者提供使用提供类
  **/

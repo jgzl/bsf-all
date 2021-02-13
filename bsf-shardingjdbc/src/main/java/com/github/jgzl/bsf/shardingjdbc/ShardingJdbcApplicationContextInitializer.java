@@ -7,7 +7,7 @@ import org.springframework.context.ApplicationContextInitializer;
 import org.springframework.context.ConfigurableApplicationContext;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-06-14 09:41
  **/
 public class ShardingJdbcApplicationContextInitializer implements ApplicationContextInitializer<ConfigurableApplicationContext> {

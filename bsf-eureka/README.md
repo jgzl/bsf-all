@@ -17,7 +17,7 @@
 
 ```java 
 <dependency>
-	<artifactId>csx-bsf-eureka</artifactId>
+	<artifactId>bsf-eureka</artifactId>
 	<groupId>com.yh.csx.bsf</groupId>
 	<version>1.7.1-SNAPSHOT</version>
 </dependency>

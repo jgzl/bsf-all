@@ -9,7 +9,7 @@
 ## 依赖引用
 ```java 
 <dependency>
-	<artifactId>csx-bsf-redis</artifactId>
+	<artifactId>bsf-redis</artifactId>
 	<groupId>com.yh.csx.bsf</groupId>
 	<version>1.7.1-SNAPSHOT</version>
 </dependency>

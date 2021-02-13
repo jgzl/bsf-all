@@ -18,7 +18,7 @@ import org.springframework.boot.ApplicationArguments;
 import java.util.List;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-09-24 16:48
  * eureka服务同步kong负载均衡和健康检查配置信息
  **/

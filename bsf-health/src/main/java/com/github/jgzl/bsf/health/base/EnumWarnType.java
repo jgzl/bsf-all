@@ -1,7 +1,7 @@
 package com.github.jgzl.bsf.health.base;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-07-23 20:16
  **/
 public enum EnumWarnType {

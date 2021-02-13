@@ -10,7 +10,7 @@
 
 ```java 
 <dependency>
-	<artifactId>csx-bsf-job</artifactId>
+	<artifactId>bsf-job</artifactId>
 	<groupId>com.yh.csx.bsf</groupId>
 	<version>1.7.1-SNAPSHOT</version>
 </dependency>
@@ -26,7 +26,7 @@ bsf.job.enabled=false
 #xxljob地址，非必填，默认根据bsf.env环境自动设置地址
 xxl.job.admin.addresses=   
 #（执行器名称，非必填，默认等于spring.application.name）
-xxl.job.executor.appname=csx-bsf-demo  
+xxl.job.executor.appname=bsf-demo  
 #（执行器ip，非必填，默认本机ip，如果存在多网卡，则必填，否在可能会导致调度中心无法连接到此执行器）
 xxl.job.executor.ip=    
 #（执行器端口，非必填，默认9999，如果单机部署多个执行器，则分别指定）

@@ -3,7 +3,7 @@ package com.github.jgzl.bsf.core.util;
 import java.math.BigDecimal;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-07-28 14:40
  **/
 public class NumberUtils {

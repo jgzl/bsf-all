@@ -3,7 +3,7 @@ package com.github.jgzl.bsf.mq.base;
 import org.apache.rocketmq.common.protocol.heartbeat.MessageModel;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-06-12 14:49
  * 消费者提供者: 提供不同类型的消息队列的消费者
  **/

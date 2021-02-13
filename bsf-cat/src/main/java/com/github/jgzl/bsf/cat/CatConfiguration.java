@@ -17,7 +17,7 @@ import com.github.jgzl.bsf.core.config.BsfConfiguration;
 import com.github.jgzl.bsf.core.util.LogUtils;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-05-27 17:18
  **/
 @org.springframework.context.annotation.Configuration

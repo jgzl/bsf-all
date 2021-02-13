@@ -25,7 +25,7 @@ import java.util.Optional;
 import java.util.UUID;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-06-12 13:01
  * rocketmq的消费者封装使用提供类
  **/

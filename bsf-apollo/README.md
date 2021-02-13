@@ -6,7 +6,7 @@ Apollo（阿波罗）是携程框架部门研发的分布式配置中心，能�
 ## 依赖配置
 ```java 
 <dependency>
-	<artifactId>csx-bsf-apollo</artifactId>
+	<artifactId>bsf-apollo</artifactId>
 	<groupId>com.yh.csx.bsf</groupId>
 	<version>1.7.1-SNAPSHOT</version>
 </dependency>

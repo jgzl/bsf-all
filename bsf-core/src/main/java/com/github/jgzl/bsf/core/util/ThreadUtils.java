@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * 提供线程池操作类
  * 默认使用自定义的全局bsf线程池
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-08-16 10:46
  **/
 public class ThreadUtils {

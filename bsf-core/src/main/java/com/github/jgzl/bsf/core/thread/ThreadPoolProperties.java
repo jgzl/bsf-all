@@ -4,7 +4,7 @@ import com.github.jgzl.bsf.core.util.PropertyUtils;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-07-23 21:54
  **/
 @ConfigurationProperties

@@ -9,7 +9,7 @@
 
 ```java 
 <dependency>
-	<artifactId>csx-bsf-mq</artifactId>
+	<artifactId>bsf-mq</artifactId>
 	<groupId>com.yh.csx.bsf</groupId>
 	<version>1.7.1-SNAPSHOT</version>
 </dependency>
@@ -37,12 +37,12 @@ bsf.rocketmq.namesrvaddr = 127.252.193.20:9876;127.252.193.18:9876
         
         //订阅消息
         RocketMQConsumerProvider consumerProvider = context.getBean(RocketMQConsumerProvider.class);
-        consumerProvider.subscribe("csx-bsf-demo-test-consumer-01","csx-bsf-demo-test",(msg)->{
+        consumerProvider.subscribe("bsf-demo-test-consumer-01","bsf-demo-test",(msg)->{
             System.out.println(msg);
         },String.class);
         
         //发送消息
-        rocketMQProducerProvider.sendMessage("csx-bsf-demo-test","测试"+ DateUtils.formatTime(new Date()));
+        rocketMQProducerProvider.sendMessage("bsf-demo-test","测试"+ DateUtils.formatTime(new Date()));
     }
     
  ```

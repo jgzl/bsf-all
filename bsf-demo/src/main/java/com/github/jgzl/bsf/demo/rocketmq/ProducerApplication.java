@@ -25,7 +25,7 @@ public class ProducerApplication  {
     public static void main(String[] args){
         ApplicationContext context = SpringApplication.run(ProducerApplication.class, args);
         RocketMQConsumerProvider consumerProvider = context.getBean(RocketMQConsumerProvider.class);
-        consumerProvider.subscribe("csx-bsf-demo-test-consumer-01","csx-bsf-demo-test",new String[]{"aaaa","ddd"},(msg)->{
+        consumerProvider.subscribe("bsf-demo-test-consumer-01","bsf-demo-test",new String[]{"aaaa","ddd"},(msg)->{
             System.out.println(new JsonSerializer().serialize( msg));
         },String.class);
     }
@@ -33,7 +33,7 @@ public class ProducerApplication  {
     @GetMapping("/sendMessage")
     public void sendMessage() {
         i=i+1;
-        rocketMQProducerProvider.sendMessage("csx-bsf-demo-test","aaaa","测试"+ i);
+        rocketMQProducerProvider.sendMessage("bsf-demo-test","aaaa","测试"+ i);
 
     }
 

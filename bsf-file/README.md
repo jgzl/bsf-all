@@ -6,7 +6,7 @@
 
 ```java 
 <dependency>
-	<artifactId>csx-bsf-file</artifactId>
+	<artifactId>bsf-file</artifactId>
 	<groupId>com.yh.csx.bsf</groupId>
 	<version>1.7.1-SNAPSHOT</version>
 </dependency>

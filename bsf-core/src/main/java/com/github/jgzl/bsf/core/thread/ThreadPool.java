@@ -16,7 +16,7 @@ import java.util.concurrent.*;
 /**
  * 自定义线程池及关键方法包装实现
  * 装饰
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-07-23 20:56
  **/
 public class ThreadPool {

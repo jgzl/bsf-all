@@ -7,7 +7,7 @@ import org.apache.commons.pool2.impl.GenericObjectPool;
 import redis.clients.jedis.JedisCluster;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-08-03 16:06
  **/
 public class RedisClusterMonitor {

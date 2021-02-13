@@ -12,7 +12,7 @@ import java.lang.management.ThreadMXBean;
 import java.util.HashMap;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-07-24 18:46
  **/
 public class ThreadCollectTask extends AbstractCollectTask {

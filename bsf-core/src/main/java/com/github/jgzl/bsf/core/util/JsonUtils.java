@@ -6,7 +6,7 @@ import com.github.jgzl.bsf.core.serialize.JsonSerializer;
 import java.lang.reflect.Type;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-07-28 14:59
  **/
 public class JsonUtils {

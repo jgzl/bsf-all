@@ -10,7 +10,7 @@ import com.dianping.cat.servlet.CatFilter;
 import com.github.jgzl.bsf.core.util.LogUtils;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-07-04 10:57
  **/
 @org.springframework.context.annotation.Configuration

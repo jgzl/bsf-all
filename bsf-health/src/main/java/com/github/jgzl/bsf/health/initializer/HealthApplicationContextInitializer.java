@@ -7,7 +7,7 @@ import org.springframework.core.env.ConfigurableEnvironment;
 import org.springframework.util.StringUtils;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-05-28 12:08
  **/
 public class HealthApplicationContextInitializer implements ApplicationContextInitializer<ConfigurableApplicationContext> {

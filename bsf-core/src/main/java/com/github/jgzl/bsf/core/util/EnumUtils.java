@@ -1,7 +1,7 @@
 package com.github.jgzl.bsf.core.util;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-07-23 18:38
  **/
 public class EnumUtils {

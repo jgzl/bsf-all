@@ -5,7 +5,7 @@ import com.github.jgzl.bsf.core.common.Collector;
 import java.util.concurrent.ThreadPoolExecutor;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-08-01 13:49
  **/
 public class ThreadMonitor {

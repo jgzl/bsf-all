@@ -9,7 +9,7 @@ ElasticSearch是一个基于Lucene的搜索服务器。它提供了一个分布�
 
 ```java 
 <dependency>
-	<artifactId>csx-bsf-elasticsearch</artifactId>
+	<artifactId>bsf-elasticsearch</artifactId>
 	<groupId>com.yh.csx.bsf</groupId>
 	<version>1.7.1-SNAPSHOT</version>
 </dependency>

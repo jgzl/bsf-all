@@ -7,7 +7,7 @@ import javax.sql.DataSource;
 import java.util.HashMap;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-10-23 16:05
  * Dbconn 简化使用和事务支持
  **/

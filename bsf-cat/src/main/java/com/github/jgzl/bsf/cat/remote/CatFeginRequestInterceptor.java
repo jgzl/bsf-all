@@ -5,7 +5,7 @@ import feign.RequestInterceptor;
 import feign.RequestTemplate;
 /**
  * 调用链拦截器
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-08-30 13:21
  **/
 public class CatFeginRequestInterceptor implements RequestInterceptor {

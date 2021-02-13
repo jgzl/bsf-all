@@ -6,7 +6,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
  * KONG网关配置
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-09-25 14:11
  **/
 @ConfigurationProperties

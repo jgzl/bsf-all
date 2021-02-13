@@ -5,7 +5,7 @@ import java.util.UUID;
 import com.github.jgzl.bsf.core.util.WebUtils;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2020-01-14 09:53
  **/
 public class RequestUtil {

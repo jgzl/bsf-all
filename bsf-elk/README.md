@@ -8,7 +8,7 @@ ELK的搭建，请参阅[ELK安装部署文档]((https://elkguide.elasticsearch.
 
 ```java 
 <dependency>
-	<artifactId>csx-bsf-elk</artifactId>
+	<artifactId>bsf-elk</artifactId>
 	<groupId>com.yh.csx.bsf</groupId>
 	<version>1.7.1-SNAPSHOT</version>
 </dependency>

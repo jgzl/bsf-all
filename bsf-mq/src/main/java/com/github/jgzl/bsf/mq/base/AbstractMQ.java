@@ -8,7 +8,7 @@ import lombok.Data;
 import java.lang.reflect.Method;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-06-12 13:19
  * 消息队列对象抽象
  **/

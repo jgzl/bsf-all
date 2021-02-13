@@ -1,7 +1,7 @@
 package com.github.jgzl.bsf.health.strategy;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-07-28 11:47
  **/
 

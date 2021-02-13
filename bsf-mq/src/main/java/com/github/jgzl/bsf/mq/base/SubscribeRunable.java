@@ -1,7 +1,7 @@
 package com.github.jgzl.bsf.mq.base;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-06-12 15:34
  * 订阅回调接口
  **/

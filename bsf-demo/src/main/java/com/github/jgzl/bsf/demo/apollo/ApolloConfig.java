@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-05-28 09:46
  **/
 @Configuration

@@ -1,12 +1,12 @@
-# csx-bsf-health
+# bsf-health
 ## 简介
-csx-bsf-health 是BSF重要组成部分，自研框架，用来检测业务系统各个方面的性能参数及异常告警。
+bsf-health 是BSF重要组成部分，自研框架，用来检测业务系统各个方面的性能参数及异常告警。
 
 ## 依赖POM
 
 ```
 <dependency>
-	<artifactId>csx-bsf-health</artifactId>
+	<artifactId>bsf-health</artifactId>
 	<groupId>com.yh.csx.bsf</groupId>
 	<version>1.7.1-SNAPSHOT</version>
 </dependency>

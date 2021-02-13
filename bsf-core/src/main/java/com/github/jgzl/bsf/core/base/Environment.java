@@ -1,7 +1,7 @@
 package com.github.jgzl.bsf.core.base;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-05-27 13:44
  **/
 public enum Environment {

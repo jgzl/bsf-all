@@ -9,7 +9,7 @@ import org.springframework.context.ApplicationContext;
 
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-08-12 21:39
  **/
 public class BeanUtils {

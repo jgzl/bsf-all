@@ -17,7 +17,7 @@ import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
 import org.springframework.cloud.netflix.ribbon.RibbonAutoConfiguration;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-08-01 16:37
  **/
 public class EurekaMonitor {

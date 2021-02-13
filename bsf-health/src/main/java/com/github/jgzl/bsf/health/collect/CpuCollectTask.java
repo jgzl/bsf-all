@@ -10,7 +10,7 @@ import lombok.Data;
 import java.lang.management.ManagementFactory;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-07-23 19:07
  **/
 public class CpuCollectTask extends AbstractCollectTask {

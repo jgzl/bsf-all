@@ -11,7 +11,7 @@ import lombok.val;
 
 /**
  * bsf 系统连接池采集任务
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-07-30 21:14
  **/
 public class BsfThreadPoolSystemCollectTask extends AbstractCollectTask {

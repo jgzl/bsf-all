@@ -12,7 +12,7 @@ import lombok.val;
 
 /**
  * bsf eureka 客户端性能采集
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-07-31 16:32
  **/
 public class BsfEurekaCollectTask extends AbstractCollectTask {

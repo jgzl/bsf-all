@@ -3,7 +3,7 @@ package com.github.jgzl.bsf.core.http;
 import com.github.jgzl.bsf.core.base.BsfException;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-07-22 20:34
  **/
 public class HttpException extends BsfException {

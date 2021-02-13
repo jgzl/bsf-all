@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-09-24 20:59
  **/
 public class PingFilter implements Filter {

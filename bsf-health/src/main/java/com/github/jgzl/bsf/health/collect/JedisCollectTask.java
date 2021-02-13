@@ -12,7 +12,7 @@ import lombok.val;
 
 /**
  * Redis性能参数收集
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-08-03 21:17
  **/
 public class JedisCollectTask extends AbstractCollectTask {

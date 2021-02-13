@@ -6,7 +6,7 @@ import com.github.jgzl.bsf.core.base.BsfException;
 import lombok.val;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-09-25 20:52
  * 动态对象动态访问
  * 动态方式:a.@index.字段.c方式访问对象

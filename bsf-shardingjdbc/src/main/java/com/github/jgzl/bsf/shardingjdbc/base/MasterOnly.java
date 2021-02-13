@@ -3,7 +3,7 @@ package com.github.jgzl.bsf.shardingjdbc.base;
 import java.lang.annotation.*;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-09-01 14:22
  **/
 @Target({ElementType.METHOD, ElementType.TYPE})

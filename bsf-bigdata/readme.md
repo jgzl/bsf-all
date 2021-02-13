@@ -1,4 +1,4 @@
-## csx-bsf-bigdata 介绍
+## bsf-bigdata 介绍
 为了解决大表分析查询问题，引入clickhouse数据库。
 
 ## Clickhouse介绍
@@ -24,7 +24,7 @@ ClickHouse是一个用于联机分析（OLAP）的列式数据库管理系统（
 BSF已经集成了clickhouse模块，不需单独依赖引入。
 ```java
 <dependency>
-	<artifactId>csx-bsf-bigdata</artifactId>
+	<artifactId>bsf-bigdata</artifactId>
 	<groupId>com.yh.csx.bsf</groupId>
 	<version>1.7.5-SNAPSHOT</version>	
 </dependency>

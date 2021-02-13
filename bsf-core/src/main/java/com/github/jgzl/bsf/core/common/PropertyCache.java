@@ -13,7 +13,7 @@ import java.util.HashMap;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-08-10 13:00
  * 属性缓存层
  **/

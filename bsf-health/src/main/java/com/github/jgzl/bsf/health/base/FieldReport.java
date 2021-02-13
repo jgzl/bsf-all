@@ -3,7 +3,7 @@ package com.github.jgzl.bsf.health.base;
 import java.lang.annotation.*;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-07-28 09:36
  **/
 @Target({ElementType.FIELD})

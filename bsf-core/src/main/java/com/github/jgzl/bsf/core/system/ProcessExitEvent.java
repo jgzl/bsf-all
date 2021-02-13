@@ -10,7 +10,7 @@ import lombok.val;
 import java.util.ArrayList;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-09-25 19:59
  * 全局进程关闭事件定义
  **/

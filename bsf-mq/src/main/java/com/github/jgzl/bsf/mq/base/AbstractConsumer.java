@@ -5,7 +5,7 @@ import com.github.jgzl.bsf.mq.MQProperties;
 import org.apache.rocketmq.client.consumer.DefaultMQPushConsumer;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-06-12 12:54
  * 消费者抽象
  **/

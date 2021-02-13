@@ -2,7 +2,7 @@ package com.github.jgzl.bsf.core.base;
 
 /**
  * 通用回调定义
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-07-30 16:42
  **/
 public class Callable {

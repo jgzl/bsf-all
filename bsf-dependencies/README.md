@@ -5,7 +5,7 @@
 ```
 <parent>
 	<groupId>com.yh.csx.bsf</groupId>
-	<artifactId>csx-bsf-dependencies</artifactId>
+	<artifactId>bsf-dependencies</artifactId>
 	<version>1.7.1-SNAPSHOT</version>
 </parent>
 

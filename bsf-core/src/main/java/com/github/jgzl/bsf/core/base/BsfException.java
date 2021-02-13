@@ -1,7 +1,7 @@
 package com.github.jgzl.bsf.core.base;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-06-12 14:34
  **/
 public class BsfException extends RuntimeException {

@@ -3,7 +3,7 @@ package com.github.jgzl.bsf.core.base;
 import lombok.Data;
 
 /**
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-08-02 11:18
  * 模拟out和ref语法
  **/

@@ -6,7 +6,7 @@ import lombok.NoArgsConstructor;
 
 /**
  * 报警消息
- * @author: chejiangyi
+ * @author: lihaifeng
  * @version: 2019-07-24 13:44
  **/
 @Data
