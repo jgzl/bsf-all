@@ -7,7 +7,7 @@
 
 	<groupId>com.github.jgzl</groupId>
 	<artifactId>bsf-dependencies</artifactId>
-	<version>updateVersion.sh</version>
+	<version>1.0.2.SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>${project.artifactId}</name>
