@@ -6,7 +6,7 @@
 
     <groupId>com.github.jgzl</groupId>
     <artifactId>bsf-starter</artifactId>
-    <version>1.0.1.RELEASE</version>
+    <version>1.0.2.RELEASE</version>
     <packaging>pom</packaging>
 
     <name>${project.artifactId}</name>
@@ -159,7 +159,7 @@
                         <configuration>
                             <serverId>oss-release</serverId>
                             <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-                            <autoReleaseAfterClose>true</autoReleaseAfterClose>
+<!--                            <autoReleaseAfterClose>true</autoReleaseAfterClose>-->
                         </configuration>
                     </plugin>
                 </plugins>
